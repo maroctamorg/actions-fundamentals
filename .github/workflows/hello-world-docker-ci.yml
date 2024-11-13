@@ -19,5 +19,5 @@ jobs:
           who-to-greet: '@maroctamorg'
 
       - name: output
-        run:  echo "${{ steps.docker-action.outputs.time"
+        run:  echo "${{ steps.docker-action.outputs.time }}"
         
